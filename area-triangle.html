@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/styles.css">
     <title>Area Of Triangle</title>
 </head>
 <body>
     <header>
-        <h1>fun with triangles</h1>
-        <nav>
-          <a href="/triangle-check.html">Is Triangle?</a>
-          <a href="/index.html">Quiz</a>
-          <a href="/cal-hypo.html">Hypotenuse</a>
-          <a href="/">Area of Triangle</a>
+        <nav class="navigation container">
+            <div class="nav-brand">Fun with triangles ⟁</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class = "list-item-inline" ><a href="/triangle-check.html" class="link">Is Triangle?</a></li>
+            <li class = "nav-pills list-item-inline" ><a href="/index.html" class="link">Quiz</a></li>
+            <li class = "nav-pills  list-item-inline" ><a href="/cal-hypo.html" class="link">Hypotenuse</a></li>
+            <li class = "nav-pills  list-item-inline" ><a href="/" class="link link-active">Area of Triangle</a></li>
+        </ul>
         </nav>
       </header>
     <main class="calculate-area-main">
@@ -33,8 +36,16 @@
           </label>
           <button class="btn-check" type="submit">Calculate</button>
         </form>
-        <p class="output calculate-area-output" id="output"></p>
+        <h2 class="output calculate-area-output" id="output"></h2>
       </main>
+      <footer class="footer fixed">
+        <div class="footer-header">Stay connected with me on</div>
+           <ul>
+               <li class="list-item-inline"><a class="link " href="https://github.com/Shrey-Tyagi">GitHub</a></li>
+               <li class="list-item-inline"><a class="link " href="https://www.linkedin.com/in/shrey-tyagi">Linkedin</a></li>
+               <li class="list-item-inline"><a class="link " href="https://twitter.com/ShreyyTyagi">Twitter</a></li>
+           </ul>
+      </footer>
       <script src="/scripts/area-triangle.js"></script>
 </body>
 </html>
