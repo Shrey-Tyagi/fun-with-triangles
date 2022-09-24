@@ -9,7 +9,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    margin: auto;
+    height:100vh; 
+    margin:0;
+    display:flex; 
+    flex-direction:column; 
 }
 
 h1 {
@@ -52,17 +55,13 @@ button {
 /** footers **/
 
 .footer {
-    bottom: 0;
     width: 100%;
     background-color: var(--primary-color);
     padding: 4rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
-}
-
-.fixed {
-    position: fixed;
+    margin-top:auto; 
 }
 
 .footer .link {
